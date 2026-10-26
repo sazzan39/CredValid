@@ -1,0 +1,13 @@
+{
+  "name": "credvalid",
+  "private": true,
+  "description": "Root convenience scripts; the app lives in web/ and the contract in contracts/.",
+  "scripts": {
+    "install:web": "npm --prefix web install",
+    "dev": "npm --prefix web run dev --",
+    "build": "npm --prefix web run build",
+    "preview": "npm --prefix web run preview --",
+    "test": "npm --prefix web test",
+    "typecheck": "npm --prefix web run typecheck"
+  }
+}
